@@ -20,6 +20,7 @@ define Package/libnl-tiny
   SECTION:=libs
   CATEGORY:=Libraries
   TITLE:=netlink socket library
+  DEPENDS:=+libc +libgcc
 endef
 
 define Package/libnl-tiny/description

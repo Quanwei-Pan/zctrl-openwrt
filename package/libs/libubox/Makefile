@@ -27,7 +27,7 @@ define Package/libubox
   CATEGORY:=Libraries
   TITLE:=Basic utility library
   ABI_VERSION:=$(PKG_VERSION)
-  DEPENDS:=
+  DEPENDS:=+libgcc
 endef
 
 define Package/libblobmsg-json

@@ -26,7 +26,7 @@ extern "C" {
 #define FAMILY_ATTR_HDRSIZE	0x08
 #define FAMILY_ATTR_MAXATTR	0x10
 #define FAMILY_ATTR_OPS		0x20
-
+#define GENL_ID_GENERATE 0
 
 struct genl_family
 {

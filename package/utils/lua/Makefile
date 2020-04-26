@@ -48,6 +48,7 @@ $(call Package/lua/Default)
   SECTION:=libs
   CATEGORY:=Libraries
   TITLE+= (libraries)
+  DEPENDS:=+libgcc
 endef
 
 define Package/liblua/description

@@ -46,10 +46,15 @@ define uboot/zybo
 	TITLE:=U-Boot $(PKG_VERSION) for Digilent Zybo Dev Board
 endef
 
+define uboot/zctrl
+	TITLE:=U-Boot $(PKG_VERSION) for Canaan Z Controller
+endef
+
 UBOOTS := \
 	zc702 \
 	zed \
 	zybo \
+	zctrl \
 
 define Package/uboot/template
 define Package/uboot-zynq-$(1)

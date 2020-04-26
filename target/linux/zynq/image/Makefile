@@ -101,6 +101,10 @@ define Device/ZYBO
 	$(call Device/DefaultConfig,zybo)
 endef
 
+define Device/ZCTRL
+	$(call Device/DefaultConfig,zctrl)
+endef
+
 define Image/BuildKernel
 	$(eval $(call Device/$(PROFILE)))
 	$(call Image/boot-imgs)
